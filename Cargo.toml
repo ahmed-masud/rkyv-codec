@@ -1,0 +1,17 @@
+[package]
+name = "aifs-codec"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+file-lock = "2.1.9"
+lib = "0.0.2"
+libc = "0.2.144"
+nix = { version="0.26.1", git = "https://github.com/safai-labs/nix.git", branch="pub-unnamed-structs-in-unistd" }
+rkyv = "0.7.42"
+rkyv-with = "0.1.0"
